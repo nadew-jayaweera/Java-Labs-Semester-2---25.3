@@ -14,6 +14,7 @@ public class SecurityAlertSystem {
             System.out.println("Severity Level: " + severityLevel);
         }
 
+
         public static void main(String[] args){
                 SecurityAlertSystem alert1 = new SecurityAlertSystem("ALERT001", "Unauthorized Access", 5);
                 SecurityAlertSystem alert2 = new SecurityAlertSystem("ALERT002","Terrorism",10);
